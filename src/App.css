@@ -1,38 +1,49 @@
-.App {
-  text-align: center;
+.header {
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header_wrap {
+  background-color: rgb(255, 255, 255);
+  padding: 18px 20rem;
+  margin: 0 auto;
+  width: 100%;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.header_wrap p {
+  padding: 0px;
+  margin-bottom: 0px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header_wrap a {
+  text-decoration: none !important;
+  font-size: 1.2rem !important;
+  font-weight: bold !important;
+  color: #000;
+}
+.d-flexs-col {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 30px;
+}
+.product-card {
+  width: calc(7vw * 2);
+  min-width: 200px;
+  height: 300px;
+  padding: 0.8rem;
+  margin: 10px;
+}
+.product-card img {
+  width: 100%;
+}
+.pname {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 6px 0px;
+}
+.price {
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 6px 0px;
 }
